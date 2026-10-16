@@ -1,11 +1,13 @@
 import { useState } from 'react';
 import { api } from '../lib/api.ts';
 import { useSession } from '../lib/store.tsx';
+import { useRouter } from '../lib/router.tsx';
 import { Banner, Button, TextField } from '../ui/components.tsx';
 import { ThemeToggle } from '../App.tsx';
 
 export function AuthPage({ invite }: { invite?: { token: string; email: string; workspaceName: string } }) {
   const { setSession } = useSession();
+  const { navigate } = useRouter();
   const [mode, setMode] = useState<'login' | 'register'>(invite ? 'register' : 'login');
   const [email, setEmail] = useState(invite?.email ?? '');
   const [name, setName] = useState('');
@@ -24,14 +26,14 @@ export function AuthPage({ invite }: { invite?: { token: string; email: string; 
           await api.workspaces.acceptInvite(invite.token);
           const me = await api.auth.me();
           setSession(me.user, me.workspaces);
-          history.replaceState(null, '', '/');
+          navigate('/', { replace: true });
           return;
         } catch {
           /* invite may already be consumed */
         }
       }
       setSession(res.user, res.workspaces);
-      history.replaceState(null, '', '/');
+      if (location.pathname !== '/') navigate('/', { replace: true });
     } catch (err) {
       setError((err as Error).message);
     } finally {

@@ -43,7 +43,7 @@ export function TreemapView({ tree, onPick }: { tree: TreeNode; onPick?: (id: st
         {focus.map((f, i) => (
           <span key={f} className="row" style={{ gap: 4 }}>
             <span className="muted">›</span>
-            <Button variant="text" size="sm" onClick={() => setFocus(focus.slice(0, i + 1))}>
+            <Button variant="text" size="sm" onClick={() => setFocus(focus.slice(0, i + 1))} data-testid="treemap-crumb">
               {CATEGORY_LABEL[f as Category] ?? f}
             </Button>
           </span>
