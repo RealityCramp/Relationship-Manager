@@ -12,6 +12,7 @@ export interface TrainingVideo {
   description: string;
   duration: number;
   video: string;
+  videoWebm?: string | null;
   captions: string;
   poster: string;
   guide: string;
@@ -141,6 +142,7 @@ function VideoPlayerPage({ video, all }: { video: TrainingVideo; all: TrainingVi
             <div className="player">
               <video ref={videoRef} controls playsInline poster={video.poster} onTimeUpdate={(e: React.SyntheticEvent<HTMLVideoElement>) => setTime(e.currentTarget.currentTime)} data-testid="training-video" crossOrigin="anonymous">
                 <source src={video.video} type="video/mp4" />
+                {video.videoWebm ? <source src={video.videoWebm} type="video/webm" /> : null}
                 <track kind="captions" src={video.captions} srcLang="en" label="English" default />
               </video>
             </div>

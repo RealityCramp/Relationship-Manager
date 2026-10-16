@@ -11,7 +11,7 @@
     "build": "node scripts/build.mjs",
     "start": "node dist/server/server.js",
     "typecheck": "tsc -p tsconfig.json --noEmit",
-    "test": "node --import tsx --test shared/src/**/*.test.ts server/src/**/*.test.ts",
+    "test": "node --import tsx --test 'shared/src/**/*.test.ts' 'server/src/**/*.test.ts'",
     "test:e2e": "playwright test",
     "test:e2e:ui": "playwright test --ui",
     "seed": "node --import tsx server/src/seed.ts",
