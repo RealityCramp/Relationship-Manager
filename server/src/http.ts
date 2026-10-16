@@ -138,7 +138,7 @@ export function sendJson(res: ServerResponse, status: number, data: unknown, hea
   res.end(body);
 }
 
-function serveStatic(root: string, urlPath: string, res: ServerResponse): boolean {
+function serveStatic(root: string, urlPath: string, res: ServerResponse, req?: IncomingMessage): boolean {
   const safe = normalize(decodeURIComponent(urlPath)).replace(/^(\.\.[/\\])+/, '');
   let file = join(root, safe);
   if (!file.startsWith(root)) return false;
@@ -146,12 +146,32 @@ function serveStatic(root: string, urlPath: string, res: ServerResponse): boolea
   if (!existsSync(file) || !statSync(file).isFile()) return false;
   const ext = extname(file).toLowerCase();
   const immutable = /\.[a-f0-9]{8,}\.(js|css)$/i.test(file) || /\/assets\//.test(file);
-  res.writeHead(200, {
+  const size = statSync(file).size;
+  const headers: Record<string, string | number> = {
     'content-type': MIME[ext] ?? 'application/octet-stream',
     'cache-control': immutable ? 'public, max-age=31536000, immutable' : ext === '.html' || file.endsWith('sw.js') ? 'no-cache' : 'public, max-age=3600',
-    'content-length': statSync(file).size,
-  });
-  createReadStream(file).pipe(res);
+    'accept-ranges': 'bytes',
+  };
+  // HTTP Range requests so <video> can seek and resume.
+  const range = req?.headers.range;
+  const m = range ? /^bytes=(\d*)-(\d*)$/.exec(range) : null;
+  if (m && (m[1] || m[2])) {
+    let start = m[1] ? Number(m[1]) : Math.max(0, size - Number(m[2]));
+    let end = m[1] && m[2] ? Number(m[2]) : size - 1;
+    if (!m[1]) end = size - 1;
+    if (start >= size || end >= size || start > end) {
+      res.writeHead(416, { 'content-range': `bytes */${size}` });
+      res.end();
+      return true;
+    }
+    res.writeHead(206, { ...headers, 'content-range': `bytes ${start}-${end}/${size}`, 'content-length': end - start + 1 });
+    if (req?.method === 'HEAD') res.end();
+    else createReadStream(file, { start, end }).pipe(res);
+    return true;
+  }
+  res.writeHead(200, { ...headers, 'content-length': size });
+  if (req?.method === 'HEAD') res.end();
+  else createReadStream(file).pipe(res);
   return true;
 }
 
@@ -187,7 +207,7 @@ export function createApp(opts: ServerOptions) {
         const result = await matched.route.handler(ctx);
         if (!res.writableEnded) sendJson(res, result === undefined ? 204 : 200, result, corsHeaders(req));
       } else if (opts.staticDir) {
-        if (!serveStatic(opts.staticDir, path, res)) {
+        if (!serveStatic(opts.staticDir, path, res, req)) {
           // SPA fallback
           if (!serveStatic(opts.staticDir, '/index.html', res)) {
             res.writeHead(404, { 'content-type': 'text/plain' });

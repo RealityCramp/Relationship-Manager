@@ -43,7 +43,7 @@ export function matchPath(pattern: string, path: string): Record<string, string>
   return params;
 }
 
-export function Link({ to, children, className, replace, ...rest }: { to: string; children: ReactNode; className?: string; replace?: boolean; [k: string]: unknown }) {
+export function Link({ to, children, className, replace, ...rest }: { to: string; children: ReactNode; className?: string; replace?: boolean } & Omit<React.AnchorHTMLAttributes<HTMLAnchorElement>, 'href' | 'onClick' | 'className' | 'children'>) {
   const { navigate } = useRouter();
   return (
     <a

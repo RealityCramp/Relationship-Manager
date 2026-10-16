@@ -1,0 +1,53 @@
+WEBVTT
+
+1
+00:00:14.777 --> 00:00:22.383
+The graph places you in the centre. Every dot is a person, coloured by their primary circle, and sized by relationship strength.
+
+2
+00:00:22.383 --> 00:00:29.285
+Lines are relationships. Solid lines come from your sources and email threads; dashed lines connect people at the same company.
+
+3
+00:00:29.285 --> 00:00:37.799
+Rings around a dot show that the person is in more than one circle.
+
+4
+00:00:37.799 --> 00:00:47.067
+Use the lens chips to focus on one circle. Here is just the Corporate circle: your colleagues.
+
+5
+00:00:47.067 --> 00:00:56.236
+And the Business circle.
+
+6
+00:00:56.236 --> 00:01:03.906
+Search filters the graph by name, company or email as you type.
+
+7
+00:01:03.906 --> 00:01:13.494
+The strength slider hides weaker relationships so the people who matter most stand out.
+
+8
+00:01:13.494 --> 00:01:21.108
+Cluster by circle pulls each circle into its own region of the canvas.
+
+9
+00:01:21.108 --> 00:01:25.778
+Cluster by company groups colleagues together.
+
+10
+00:01:25.778 --> 00:01:34.861
+Scroll to zoom, drag the background to pan, and drag a person to pin them while the layout settles.
+
+11
+00:01:34.861 --> 00:01:40.858
+Hover for a quick summary. Click a person to open their side sheet.
+
+12
+00:01:40.858 --> 00:01:49.450
+The sheet shows strength, interactions, sources and the people they are connected to. Open takes you to the full profile.
+
+13
+00:01:49.450 --> 00:01:53.936
+The toolbar zooms, fits the graph to the window and re-runs the layout.

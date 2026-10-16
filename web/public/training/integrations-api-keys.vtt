@@ -1,0 +1,41 @@
+WEBVTT
+
+1
+00:00:11.799 --> 00:00:18.011
+Instead of exporting files, you can connect accounts directly. Every connector accepts your own API keys or tokens.
+
+2
+00:00:18.011 --> 00:00:26.412
+Keys are encrypted at rest with AES-256 and never sent back to the browser. Use app passwords and short-lived tokens where you can.
+
+3
+00:00:26.412 --> 00:00:34.175
+IMAP works with Gmail, Outlook, Fastmail, iCloud and any mail server. It scans your inbox and sent folder for two-way conversations.
+
+4
+00:00:34.175 --> 00:00:40.215
+Google uses the Gmail and People APIs. Microsoft 365 uses Microsoft Graph for mail and contacts.
+
+5
+00:00:40.215 --> 00:00:55.961
+X resolves followers and follows with names and avatars from a bearer token. Facebook and LinkedIn verify your account with their tokens.
+
+6
+00:00:55.961 --> 00:01:01.221
+Fill in the host, your address and an app password, then connect.
+
+7
+00:01:01.221 --> 00:01:07.571
+The connector appears with its settings; notice the password is only shown as set, never its value.
+
+8
+00:01:07.571 --> 00:01:15.792
+Test checks the credentials. Sync now pulls everything in and runs the same matching as a file import.
+
+9
+00:01:15.792 --> 00:01:25.107
+Connected accounts also show on the Import page, so you can sync from the same place you import files.
+
+10
+00:01:25.107 --> 00:01:29.270
+Remove a connector at any time; its keys are deleted with it.

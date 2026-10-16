@@ -1,0 +1,37 @@
+WEBVTT
+
+1
+00:00:11.690 --> 00:00:16.177
+The Venn view answers one question: who is in more than one circle?
+
+2
+00:00:16.178 --> 00:00:26.448
+With all four circles selected you get the classic four-set diagram. Each number is the count of people in exactly that overlap.
+
+3
+00:00:26.448 --> 00:00:37.331
+Deselect a circle and the diagram becomes area-proportional: bigger groups get bigger circles, and the overlap size is exact.
+
+4
+00:00:37.331 --> 00:00:43.159
+Hover a region for details. Click it to list exactly those people.
+
+5
+00:00:43.159 --> 00:00:48.447
+That takes you to People with the matching filter already applied.
+
+6
+00:00:48.447 --> 00:00:56.728
+The chord diagram shows the same overlaps as flows. Each arc is a circle, and ribbon width is how many people two circles share.
+
+7
+00:00:56.728 --> 00:01:07.567
+The loops that return to the same arc are people in only that circle. Hover a ribbon to see the count, click it to list the people.
+
+8
+00:01:07.567 --> 00:01:13.436
+Flow is a Sankey diagram: sources on the left, circles in the middle, companies on the right.
+
+9
+00:01:13.436 --> 00:01:20.678
+It shows where each circle comes from. Hover a node to trace its flows, click a company to list its people.

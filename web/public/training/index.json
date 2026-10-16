@@ -1,0 +1,304 @@
+{
+  "generatedAt": "2026-10-16T16:47:29.535Z",
+  "videos": [
+    {
+      "id": "welcome-tour",
+      "title": "Welcome tour",
+      "description": "Sign in, meet the dashboard and learn how the four circles organise your network.",
+      "level": "start",
+      "duration": 83,
+      "video": "/training/welcome-tour.mp4",
+      "videoWebm": "/training/welcome-tour.webm",
+      "captions": "/training/welcome-tour.vtt",
+      "poster": "/training/welcome-tour.jpg",
+      "guide": "/training/guides/getting-started.md",
+      "chapters": [
+        {
+          "time": 5,
+          "title": "Signing in"
+        },
+        {
+          "time": 24,
+          "title": "The dashboard"
+        },
+        {
+          "time": 60,
+          "title": "Navigation"
+        }
+      ],
+      "narration": false
+    },
+    {
+      "id": "importing-sources",
+      "title": "Importing your connections",
+      "description": "Export from LinkedIn, Facebook, X, Contacts and email, then import them with the wizard.",
+      "level": "start",
+      "duration": 146,
+      "video": "/training/importing-sources.mp4",
+      "videoWebm": "/training/importing-sources.webm",
+      "captions": "/training/importing-sources.vtt",
+      "poster": "/training/importing-sources.jpg",
+      "guide": "/training/guides/importing-data.md",
+      "chapters": [
+        {
+          "time": 10,
+          "title": "Set your own addresses first"
+        },
+        {
+          "time": 32,
+          "title": "The import wizard"
+        },
+        {
+          "time": 71,
+          "title": "Facebook, X and Contacts"
+        },
+        {
+          "time": 109,
+          "title": "Email"
+        }
+      ],
+      "narration": false
+    },
+    {
+      "id": "network-graph",
+      "title": "Exploring the network graph",
+      "description": "Lenses, search, strength filter, clustering and the person side sheet.",
+      "level": "core",
+      "duration": 129,
+      "video": "/training/network-graph.mp4",
+      "videoWebm": "/training/network-graph.webm",
+      "captions": "/training/network-graph.vtt",
+      "poster": "/training/network-graph.jpg",
+      "guide": "/training/guides/exploring-visualisations.md",
+      "chapters": [
+        {
+          "time": 15,
+          "title": "Reading the graph"
+        },
+        {
+          "time": 34,
+          "title": "Lenses and filters"
+        },
+        {
+          "time": 70,
+          "title": "Clustering"
+        },
+        {
+          "time": 86,
+          "title": "Interacting"
+        }
+      ],
+      "narration": false
+    },
+    {
+      "id": "venn-chord-flow",
+      "title": "Venn, chord and flow diagrams",
+      "description": "See how your circles overlap and where each one comes from.",
+      "level": "core",
+      "duration": 84,
+      "video": "/training/venn-chord-flow.mp4",
+      "videoWebm": "/training/venn-chord-flow.webm",
+      "captions": "/training/venn-chord-flow.vtt",
+      "poster": "/training/venn-chord-flow.jpg",
+      "guide": "/training/guides/exploring-visualisations.md",
+      "chapters": [
+        {
+          "time": 12,
+          "title": "Venn diagram"
+        },
+        {
+          "time": 47,
+          "title": "Chord diagram"
+        },
+        {
+          "time": 66,
+          "title": "Flow diagram"
+        }
+      ],
+      "narration": false
+    },
+    {
+      "id": "treemap-radial-activity",
+      "title": "Treemap, radial tree and activity",
+      "description": "Companies and people by strength, the hierarchy around you, and your interaction history.",
+      "level": "core",
+      "duration": 68,
+      "video": "/training/treemap-radial-activity.mp4",
+      "videoWebm": "/training/treemap-radial-activity.webm",
+      "captions": "/training/treemap-radial-activity.vtt",
+      "poster": "/training/treemap-radial-activity.jpg",
+      "guide": "/training/guides/exploring-visualisations.md",
+      "chapters": [
+        {
+          "time": 12,
+          "title": "Treemap"
+        },
+        {
+          "time": 27,
+          "title": "Radial tree"
+        },
+        {
+          "time": 43,
+          "title": "Activity"
+        }
+      ],
+      "narration": false
+    },
+    {
+      "id": "people-and-contacts",
+      "title": "Managing people",
+      "description": "Search and filter the directory, edit a profile, tag, take notes, log interactions and merge duplicates.",
+      "level": "core",
+      "duration": 115,
+      "video": "/training/people-and-contacts.mp4",
+      "videoWebm": "/training/people-and-contacts.webm",
+      "captions": "/training/people-and-contacts.vtt",
+      "poster": "/training/people-and-contacts.jpg",
+      "guide": "/training/guides/managing-people.md",
+      "chapters": [
+        {
+          "time": 12,
+          "title": "The directory"
+        },
+        {
+          "time": 39,
+          "title": "A profile"
+        },
+        {
+          "time": 89,
+          "title": "Duplicates"
+        }
+      ],
+      "narration": false
+    },
+    {
+      "id": "workspaces-and-team",
+      "title": "Workspaces and your team",
+      "description": "Configure a workspace, invite teammates with roles and keep separate networks.",
+      "level": "advanced",
+      "duration": 71,
+      "video": "/training/workspaces-and-team.mp4",
+      "videoWebm": "/training/workspaces-and-team.webm",
+      "captions": "/training/workspaces-and-team.vtt",
+      "poster": "/training/workspaces-and-team.jpg",
+      "guide": "/training/guides/team-workspaces.md",
+      "chapters": [
+        {
+          "time": 12,
+          "title": "Workspace settings"
+        },
+        {
+          "time": 25,
+          "title": "Members and roles"
+        },
+        {
+          "time": 50,
+          "title": "More workspaces"
+        }
+      ],
+      "narration": false
+    },
+    {
+      "id": "integrations-api-keys",
+      "title": "Integrations and API keys",
+      "description": "Connect IMAP, Google, Microsoft 365, X, Facebook and LinkedIn with your own keys and sync on demand.",
+      "level": "advanced",
+      "duration": 94,
+      "video": "/training/integrations-api-keys.mp4",
+      "videoWebm": "/training/integrations-api-keys.webm",
+      "captions": "/training/integrations-api-keys.vtt",
+      "poster": "/training/integrations-api-keys.jpg",
+      "guide": "/training/guides/integrations-and-api-keys.md",
+      "chapters": [
+        {
+          "time": 12,
+          "title": "Connectors"
+        },
+        {
+          "time": 48,
+          "title": "Adding a connector"
+        },
+        {
+          "time": 74,
+          "title": "Syncing"
+        }
+      ],
+      "narration": false
+    },
+    {
+      "id": "install-and-offline",
+      "title": "Install the app and work offline",
+      "description": "Install Relationship Manager as a PWA, personalise the theme and export your data.",
+      "level": "advanced",
+      "duration": 72,
+      "video": "/training/install-and-offline.mp4",
+      "videoWebm": "/training/install-and-offline.webm",
+      "captions": "/training/install-and-offline.vtt",
+      "poster": "/training/install-and-offline.jpg",
+      "guide": "/training/guides/install-and-offline.md",
+      "chapters": [
+        {
+          "time": 10,
+          "title": "Installing"
+        },
+        {
+          "time": 27,
+          "title": "Offline"
+        },
+        {
+          "time": 36,
+          "title": "Personalise"
+        },
+        {
+          "time": 55,
+          "title": "Your data"
+        }
+      ],
+      "narration": false
+    }
+  ],
+  "guides": [
+    {
+      "id": "exploring-visualisations",
+      "title": "Exploring the visualisations",
+      "description": "**Network** offers seven views of the same data. The filter bar at the top — lens chips, source selector and search — applies to all of them.",
+      "path": "/training/guides/exploring-visualisations.md"
+    },
+    {
+      "id": "getting-started",
+      "title": "Getting started",
+      "description": "Relationship Manager gathers every connection you have — LinkedIn, Facebook, X, your address book and your email — into one network you can explore from four an",
+      "path": "/training/guides/getting-started.md"
+    },
+    {
+      "id": "importing-data",
+      "title": "Importing your data",
+      "description": "Every source is imported through the same wizard: choose a source, add the export file, review, import. People found in a new file are matched against people al",
+      "path": "/training/guides/importing-data.md"
+    },
+    {
+      "id": "install-and-offline",
+      "title": "Install the app and work offline",
+      "description": "Relationship Manager is a **progressive web app**: it installs like a native app and keeps working without a connection.",
+      "path": "/training/guides/install-and-offline.md"
+    },
+    {
+      "id": "integrations-and-api-keys",
+      "title": "Integrations and API keys",
+      "description": "Connectors let the app sync directly from your accounts instead of importing files. Each one accepts **your own** keys or tokens. Secrets are encrypted at rest ",
+      "path": "/training/guides/integrations-and-api-keys.md"
+    },
+    {
+      "id": "managing-people",
+      "title": "Managing people",
+      "description": "**People** lists everyone in the workspace. Columns: avatar, name and title (or email), company, circles, sources, strength with interaction count, and last con",
+      "path": "/training/guides/managing-people.md"
+    },
+    {
+      "id": "team-workspaces",
+      "title": "Team workspaces",
+      "description": "A **workspace** is one network: its people, relationships, integrations and settings. You can belong to several — for example a private one and one shared with ",
+      "path": "/training/guides/team-workspaces.md"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+WEBVTT
+
+1
+00:00:11.979 --> 00:00:20.786
+The treemap nests people inside companies inside circles. Box size is relationship strength, so the biggest boxes are your closest people.
+
+2
+00:00:20.786 --> 00:00:29.151
+Click a circle or company to zoom in, and use the breadcrumb to go back.
+
+3
+00:00:29.151 --> 00:00:37.433
+The radial tree is the same hierarchy as a dendrogram: you in the centre, then circles, then companies, then people on the outer ring.
+
+4
+00:00:37.433 --> 00:00:44.410
+In large networks the outer names appear on hover, and clicking a person opens their sheet.
+
+5
+00:00:44.410 --> 00:00:52.605
+Activity charts your interactions per month over the last two years, straight from imported email threads and anything you log by hand.
+
+6
+00:00:52.605 --> 00:00:59.851
+The strength distribution shows how many people sit at each level, and the heat map shows which sources feed each circle.
+
+7
+00:00:59.851 --> 00:01:05.024
+All of these views share the same filters at the top: lens, source and search.

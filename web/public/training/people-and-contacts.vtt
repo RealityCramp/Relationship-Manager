@@ -1,0 +1,45 @@
+WEBVTT
+
+1
+00:00:11.741 --> 00:00:21.703
+People is the full directory, sorted by strength. Each row shows company, circles, sources, strength and the last contact date.
+
+2
+00:00:21.703 --> 00:00:29.415
+Search matches names, companies, titles, emails and notes.
+
+3
+00:00:29.415 --> 00:00:39.902
+Circle chips combine: this is everyone who is both Personal and Business. The exact switch narrows it to people in only those circles.
+
+4
+00:00:39.902 --> 00:00:49.821
+A profile brings together everything known about a person: contact details, sources with links back to the original profile, circles and strength.
+
+5
+00:00:49.821 --> 00:00:59.426
+Circles are inferred automatically, but you can override them by tapping the chips. Reset returns to automatic.
+
+6
+00:00:59.426 --> 00:01:09.111
+Tags are free-form labels you can filter by in the directory.
+
+7
+00:01:09.111 --> 00:01:16.982
+Notes are private to the workspace and searchable.
+
+8
+00:01:16.982 --> 00:01:22.160
+Log meetings, calls and messages by hand. They count towards strength just like email threads.
+
+9
+00:01:22.160 --> 00:01:33.041
+Connected people lists everyone linked to this person, with the kind of link: a shared employer or an email thread.
+
+10
+00:01:33.041 --> 00:01:44.394
+Imports match people by email, handle and exact name. For anything that slips through, Find duplicates lists likely pairs and lets you merge with one click.
+
+11
+00:01:44.394 --> 00:01:48.537
+And you can export the current list as CSV at any time.
