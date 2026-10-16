@@ -1,0 +1,35 @@
+{
+  "name": "Relationship Manager",
+  "short_name": "Relationships",
+  "description": "See your whole network — personal, business, corporate and social — in one place.",
+  "id": "/",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone"],
+  "orientation": "any",
+  "background_color": "#f8f9ff",
+  "theme_color": "#0b57d0",
+  "lang": "en",
+  "categories": ["productivity", "business", "social"],
+  "icons": [
+    { "src": "/icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Network graph", "url": "/network", "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Import", "url": "/import", "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "People", "url": "/people", "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }] }
+  ],
+  "share_target": {
+    "action": "/import",
+    "method": "GET",
+    "params": { "title": "title", "text": "text", "url": "url" }
+  },
+  "screenshots": [
+    { "src": "/screenshots/dashboard.png", "sizes": "1440x900", "type": "image/png", "form_factor": "wide", "label": "Dashboard" },
+    { "src": "/screenshots/network.png", "sizes": "1440x900", "type": "image/png", "form_factor": "wide", "label": "Network graph" }
+  ]
+}

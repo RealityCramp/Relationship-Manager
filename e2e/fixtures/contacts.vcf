@@ -1,0 +1,894 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Castillo;Omar;;;
+FN:Omar Castillo
+ORG:Northwind Labs
+TITLE:Account Executive
+EMAIL;TYPE=WORK:omar.castillo@northwindlabs.com
+EMAIL;TYPE=HOME:omar.castillo53@gmail.com
+TEL;TYPE=CELL:+1 314 555 1556
+ADR;TYPE=HOME:;;;Toronto;CA;;USA
+CATEGORIES:Family
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Kim;Marcus;;;
+FN:Marcus Kim
+ORG:Lumen Analytics
+TITLE:Product Manager
+EMAIL;TYPE=WORK:marcus.kim@lumenanalytics.io
+EMAIL;TYPE=HOME:marcus.kim22@icloud.com
+TEL;TYPE=CELL:+1 314 555 3732
+ADR;TYPE=HOME:;;;New York;NY;;USA
+CATEGORIES:Clients
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Fischer;Diego;;;
+FN:Diego Fischer
+ORG:Mesa University
+TITLE:Analyst
+EMAIL;TYPE=WORK:diego.fischer@mesa.edu
+EMAIL;TYPE=HOME:diego.fischer26@gmail.com
+ADR;TYPE=HOME:;;;Denver;CO;;USA
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Fernandez;Victor;;;
+FN:Victor Fernandez
+ORG:Quill & Ink Media
+TITLE:Designer
+EMAIL;TYPE=WORK:victor.fernandez@quillink.media
+EMAIL;TYPE=HOME:victor.fernandez58@outlook.com
+TEL;TYPE=CELL:+1 314 555 6660
+ADR;TYPE=HOME:;;;Denver;CO;;USA
+CATEGORIES:Family
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Costa;Ava;;;
+FN:Ava Costa
+ORG:Orbital Systems
+TITLE:Analyst
+EMAIL;TYPE=WORK:ava.costa@orbital.systems
+EMAIL;TYPE=HOME:ava.costa44@gmail.com
+TEL;TYPE=CELL:+1 314 555 7349
+ADR;TYPE=HOME:;;;Austin;TX;;USA
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Jensen;Elena;;;
+FN:Elena Jensen
+ORG:Northwind Labs
+TITLE:Head of Partnerships
+EMAIL;TYPE=WORK:elena.jensen@northwindlabs.com
+EMAIL;TYPE=HOME:elena.jensen35@outlook.com
+TEL;TYPE=CELL:+1 314 555 7175
+ADR;TYPE=HOME:;;;New York;NY;;USA
+CATEGORIES:Clients
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Larsen;Jonas;;;
+FN:Jonas Larsen
+ORG:Aster Capital
+TITLE:Data Scientist
+EMAIL;TYPE=WORK:jonas.larsen@astercapital.com
+EMAIL;TYPE=HOME:jonas.larsen15@icloud.com
+TEL;TYPE=CELL:+1 314 555 2124
+ADR;TYPE=HOME:;;;London;UK;;USA
+CATEGORIES:Clients
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Kowalski;Wren;;;
+FN:Wren Kowalski
+EMAIL;TYPE=HOME:wren.kowalski6@gmail.com
+ADR;TYPE=HOME:;;;Berlin;DE;;USA
+CATEGORIES:Clients
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Walsh;Jonas;;;
+FN:Jonas Walsh
+ORG:Orbital Systems
+TITLE:Research Fellow
+EMAIL;TYPE=WORK:jonas.walsh@orbital.systems
+ADR;TYPE=HOME:;;;Seattle;WA;;USA
+CATEGORIES:Clients
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Ibarra;Tomas;;;
+FN:Tomas Ibarra
+EMAIL;TYPE=HOME:tomas.ibarra24@gmail.com
+TEL;TYPE=CELL:+1 314 555 3618
+ADR;TYPE=HOME:;;;Berlin;DE;;USA
+CATEGORIES:Clients
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Silva;Chloe;;;
+FN:Chloe Silva
+ORG:Greenline Logistics
+TITLE:Founder
+EMAIL;TYPE=WORK:chloe.silva@greenline.co
+EMAIL;TYPE=HOME:chloe.silva13@icloud.com
+TEL;TYPE=CELL:+1 314 555 5775
+ADR;TYPE=HOME:;;;Seattle;WA;;USA
+CATEGORIES:Clients
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Mensah;Marcus;;;
+FN:Marcus Mensah
+ORG:Northwind Labs
+TITLE:Software Engineer
+EMAIL;TYPE=WORK:marcus.mensah@northwindlabs.com
+EMAIL;TYPE=HOME:marcus.mensah23@icloud.com
+ADR;TYPE=HOME:;;;St. Louis;MO;;USA
+CATEGORIES:Clients
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Patel;Ravi;;;
+FN:Ravi Patel
+EMAIL;TYPE=HOME:ravi.patel77@yahoo.com
+ADR;TYPE=HOME:;;;Austin;TX;;USA
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Castillo;Isla;;;
+FN:Isla Castillo
+EMAIL;TYPE=HOME:isla.castillo86@outlook.com
+TEL;TYPE=CELL:+1 314 555 6676
+ADR;TYPE=HOME:;;;Chicago;IL;;USA
+CATEGORIES:Family
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Schmidt;Ines;;;
+FN:Ines Schmidt
+ORG:Mesa University
+TITLE:Research Fellow
+EMAIL;TYPE=WORK:ines.schmidt@mesa.edu
+EMAIL;TYPE=HOME:ines.schmidt55@icloud.com
+ADR;TYPE=HOME:;;;Denver;CO;;USA
+CATEGORIES:Family
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Baker;Amara;;;
+FN:Amara Baker
+ORG:Greenline Logistics
+TITLE:Operations Manager
+EMAIL;TYPE=WORK:amara.baker@greenline.co
+ADR;TYPE=HOME:;;;Chicago;IL;;USA
+CATEGORIES:Clients
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Gupta;Diego;;;
+FN:Diego Gupta
+EMAIL;TYPE=HOME:diego.gupta13@icloud.com
+ADR;TYPE=HOME:;;;Lisbon;PT;;USA
+CATEGORIES:Clients
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Hughes;Sofia;;;
+FN:Sofia Hughes
+ORG:Quill & Ink Media
+TITLE:Product Manager
+EMAIL;TYPE=WORK:sofia.hughes@quillink.media
+EMAIL;TYPE=HOME:sofia.hughes25@gmail.com
+TEL;TYPE=CELL:+1 314 555 7407
+ADR;TYPE=HOME:;;;Lisbon;PT;;USA
+CATEGORIES:Family
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Costa;Chloe;;;
+FN:Chloe Costa
+ORG:Greenline Logistics
+TITLE:Designer
+EMAIL;TYPE=WORK:chloe.costa@greenline.co
+EMAIL;TYPE=HOME:chloe.costa77@outlook.com
+TEL;TYPE=CELL:+1 314 555 3263
+ADR;TYPE=HOME:;;;Denver;CO;;USA
+CATEGORIES:Family
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Okafor;Marcus;;;
+FN:Marcus Okafor
+ORG:Greenline Logistics
+TITLE:Account Executive
+EMAIL;TYPE=WORK:marcus.okafor@greenline.co
+EMAIL;TYPE=HOME:marcus.okafor40@icloud.com
+TEL;TYPE=CELL:+1 314 555 7374
+ADR;TYPE=HOME:;;;New York;NY;;USA
+CATEGORIES:Family
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Hughes;Mila;;;
+FN:Mila Hughes
+ORG:Lumen Analytics
+TITLE:Marketing Lead
+EMAIL;TYPE=WORK:mila.hughes@lumenanalytics.io
+EMAIL;TYPE=HOME:mila.hughes42@yahoo.com
+TEL;TYPE=CELL:+1 314 555 7433
+ADR;TYPE=HOME:;;;Denver;CO;;USA
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Kowalski;Chloe;;;
+FN:Chloe Kowalski
+ORG:Greenline Logistics
+TITLE:Operations Manager
+EMAIL;TYPE=WORK:chloe.kowalski@greenline.co
+ADR;TYPE=HOME:;;;Toronto;CA;;USA
+CATEGORIES:Clients
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Okafor;Wren;;;
+FN:Wren Okafor
+ORG:Orbital Systems
+TITLE:Research Fellow
+EMAIL;TYPE=WORK:wren.okafor@orbital.systems
+EMAIL;TYPE=HOME:wren.okafor75@outlook.com
+ADR;TYPE=HOME:;;;Berlin;DE;;USA
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Castillo;Kenji;;;
+FN:Kenji Castillo
+ORG:Civic Bridge
+TITLE:Program Director
+EMAIL;TYPE=WORK:kenji.castillo@civicbridge.org
+ADR;TYPE=HOME:;;;Denver;CO;;USA
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Fischer;Felix;;;
+FN:Felix Fischer
+ORG:Aster Capital
+TITLE:Account Executive
+EMAIL;TYPE=WORK:felix.fischer@astercapital.com
+TEL;TYPE=CELL:+1 314 555 6350
+ADR;TYPE=HOME:;;;New York;NY;;USA
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Fernandez;Jonas;;;
+FN:Jonas Fernandez
+TITLE:Research Fellow
+EMAIL;TYPE=HOME:jonas.fernandez49@icloud.com
+ADR;TYPE=HOME:;;;Berlin;DE;;USA
+CATEGORIES:Clients
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Brooks;Hana;;;
+FN:Hana Brooks
+ORG:Civic Bridge
+TITLE:Head of Partnerships
+EMAIL;TYPE=WORK:hana.brooks@civicbridge.org
+ADR;TYPE=HOME:;;;Chicago;IL;;USA
+CATEGORIES:Clients
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Larsen;Wren;;;
+FN:Wren Larsen
+TITLE:Program Director
+EMAIL;TYPE=HOME:wren.larsen35@gmail.com
+TEL;TYPE=CELL:+1 314 555 9498
+ADR;TYPE=HOME:;;;Seattle;WA;;USA
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Lindqvist;Beatriz;;;
+FN:Beatriz Lindqvist
+ORG:Orbital Systems
+TITLE:Operations Manager
+EMAIL;TYPE=WORK:beatriz.lindqvist@orbital.systems
+EMAIL;TYPE=HOME:beatriz.lindqvist56@outlook.com
+ADR;TYPE=HOME:;;;Toronto;CA;;USA
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Nguyen;Oscar;;;
+FN:Oscar Nguyen
+ORG:Northwind Labs
+TITLE:Research Fellow
+EMAIL;TYPE=WORK:oscar.nguyen@northwindlabs.com
+EMAIL;TYPE=HOME:oscar.nguyen41@icloud.com
+TEL;TYPE=CELL:+1 314 555 7375
+ADR;TYPE=HOME:;;;Austin;TX;;USA
+CATEGORIES:Clients
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Tanaka;Felix;;;
+FN:Felix Tanaka
+EMAIL;TYPE=HOME:felix.tanaka77@gmail.com
+ADR;TYPE=HOME:;;;Chicago;IL;;USA
+CATEGORIES:Family
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Schmidt;Beatriz;;;
+FN:Beatriz Schmidt
+ORG:Mesa University
+TITLE:Founder
+EMAIL;TYPE=WORK:beatriz.schmidt@mesa.edu
+EMAIL;TYPE=HOME:beatriz.schmidt39@outlook.com
+TEL;TYPE=CELL:+1 314 555 4024
+ADR;TYPE=HOME:;;;Berlin;DE;;USA
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Brooks;Tomas;;;
+FN:Tomas Brooks
+ORG:Mesa University
+TITLE:Designer
+EMAIL;TYPE=WORK:tomas.brooks@mesa.edu
+EMAIL;TYPE=HOME:tomas.brooks13@gmail.com
+TEL;TYPE=CELL:+1 314 555 4050
+ADR;TYPE=HOME:;;;Denver;CO;;USA
+CATEGORIES:Clients
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Jensen;Sofia;;;
+FN:Sofia Jensen
+ORG:Pixelforge Studio
+TITLE:Product Manager
+EMAIL;TYPE=WORK:sofia.jensen@pixelforge.studio
+EMAIL;TYPE=HOME:sofia.jensen34@outlook.com
+TEL;TYPE=CELL:+1 314 555 1147
+ADR;TYPE=HOME:;;;Seattle;WA;;USA
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Fischer;Wren;;;
+FN:Wren Fischer
+TITLE:Research Fellow
+TEL;TYPE=CELL:+1 314 555 1014
+ADR;TYPE=HOME:;;;New York;NY;;USA
+CATEGORIES:Family
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Castillo;Freya;;;
+FN:Freya Castillo
+ORG:Northwind Labs
+TITLE:Operations Manager
+EMAIL;TYPE=WORK:freya.castillo@northwindlabs.com
+TEL;TYPE=CELL:+1 314 555 8626
+ADR;TYPE=HOME:;;;London;UK;;USA
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Patel;Elena;;;
+FN:Elena Patel
+ORG:Northwind Labs
+TITLE:Recruiter
+EMAIL;TYPE=WORK:elena.patel@northwindlabs.com
+TEL;TYPE=CELL:+1 314 555 9571
+ADR;TYPE=HOME:;;;St. Louis;MO;;USA
+CATEGORIES:Clients
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Castillo;Ravi;;;
+FN:Ravi Castillo
+ORG:Civic Bridge
+TITLE:Product Manager
+EMAIL;TYPE=WORK:ravi.castillo@civicbridge.org
+ADR;TYPE=HOME:;;;Toronto;CA;;USA
+CATEGORIES:Clients
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Okafor;Victor;;;
+FN:Victor Okafor
+EMAIL;TYPE=HOME:victor.okafor24@outlook.com
+TEL;TYPE=CELL:+1 314 555 2864
+ADR;TYPE=HOME:;;;Denver;CO;;USA
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Costa;Yuki;;;
+FN:Yuki Costa
+EMAIL;TYPE=HOME:yuki.costa57@outlook.com
+ADR;TYPE=HOME:;;;Austin;TX;;USA
+CATEGORIES:Clients
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Brooks;Mateo;;;
+FN:Mateo Brooks
+ORG:Civic Bridge
+TITLE:Data Scientist
+EMAIL;TYPE=WORK:mateo.brooks@civicbridge.org
+EMAIL;TYPE=HOME:mateo.brooks44@icloud.com
+TEL;TYPE=CELL:+1 314 555 7154
+ADR;TYPE=HOME:;;;Denver;CO;;USA
+CATEGORIES:Clients
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Baker;Henrik;;;
+FN:Henrik Baker
+TITLE:Head of Partnerships
+EMAIL;TYPE=HOME:henrik.baker55@outlook.com
+ADR;TYPE=HOME:;;;St. Louis;MO;;USA
+CATEGORIES:Family
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Patel;Tomas;;;
+FN:Tomas Patel
+ORG:Harbor Health
+TITLE:Operations Manager
+EMAIL;TYPE=WORK:tomas.patel@harborhealth.org
+ADR;TYPE=HOME:;;;Toronto;CA;;USA
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Castillo;Liam;;;
+FN:Liam Castillo
+ORG:Harbor Health
+TITLE:Operations Manager
+EMAIL;TYPE=WORK:liam.castillo@harborhealth.org
+EMAIL;TYPE=HOME:liam.castillo6@gmail.com
+TEL;TYPE=CELL:+1 314 555 3186
+ADR;TYPE=HOME:;;;Toronto;CA;;USA
+CATEGORIES:Clients
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Ahmed;Mateo;;;
+FN:Mateo Ahmed
+EMAIL;TYPE=HOME:mateo.ahmed59@icloud.com
+TEL;TYPE=CELL:+1 314 555 5413
+ADR;TYPE=HOME:;;;London;UK;;USA
+CATEGORIES:Family
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Kim;Leila;;;
+FN:Leila Kim
+ORG:Orbital Systems
+TITLE:Product Manager
+EMAIL;TYPE=WORK:leila.kim@orbital.systems
+ADR;TYPE=HOME:;;;Denver;CO;;USA
+CATEGORIES:Family
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Moreau;Elena;;;
+FN:Elena Moreau
+ORG:Civic Bridge
+TITLE:Account Executive
+EMAIL;TYPE=WORK:elena.moreau@civicbridge.org
+EMAIL;TYPE=HOME:elena.moreau35@gmail.com
+ADR;TYPE=HOME:;;;Toronto;CA;;USA
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Kowalski;Zoe;;;
+FN:Zoe Kowalski
+ORG:Northwind Labs
+TITLE:CTO
+EMAIL;TYPE=WORK:zoe.kowalski@northwindlabs.com
+EMAIL;TYPE=HOME:zoe.kowalski83@icloud.com
+ADR;TYPE=HOME:;;;New York;NY;;USA
+CATEGORIES:Clients
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Fernandez;Liam;;;
+FN:Liam Fernandez
+ORG:Quill & Ink Media
+TITLE:Founder
+EMAIL;TYPE=WORK:liam.fernandez@quillink.media
+EMAIL;TYPE=HOME:liam.fernandez67@gmail.com
+TEL;TYPE=CELL:+1 314 555 4992
+ADR;TYPE=HOME:;;;Austin;TX;;USA
+CATEGORIES:Family
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Moreau;Ines;;;
+FN:Ines Moreau
+ORG:Lumen Analytics
+TITLE:Recruiter
+EMAIL;TYPE=WORK:ines.moreau@lumenanalytics.io
+EMAIL;TYPE=HOME:ines.moreau82@yahoo.com
+ADR;TYPE=HOME:;;;London;UK;;USA
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Ibarra;Felix;;;
+FN:Felix Ibarra
+ORG:Northwind Labs
+TITLE:Analyst
+EMAIL;TYPE=WORK:felix.ibarra@northwindlabs.com
+EMAIL;TYPE=HOME:felix.ibarra35@outlook.com
+ADR;TYPE=HOME:;;;Seattle;WA;;USA
+CATEGORIES:Family
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Nguyen;Chloe;;;
+FN:Chloe Nguyen
+ORG:Quill & Ink Media
+TITLE:CTO
+EMAIL;TYPE=WORK:chloe.nguyen@quillink.media
+ADR;TYPE=HOME:;;;Denver;CO;;USA
+CATEGORIES:Family
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Kim;Ravi;;;
+FN:Ravi Kim
+ORG:Greenline Logistics
+TITLE:Designer
+EMAIL;TYPE=WORK:ravi.kim@greenline.co
+EMAIL;TYPE=HOME:ravi.kim9@yahoo.com
+TEL;TYPE=CELL:+1 314 555 5235
+ADR;TYPE=HOME:;;;Austin;TX;;USA
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Okafor;Sana;;;
+FN:Sana Okafor
+ORG:Orbital Systems
+TITLE:Marketing Lead
+EMAIL;TYPE=WORK:sana.okafor@orbital.systems
+EMAIL;TYPE=HOME:sana.okafor72@yahoo.com
+ADR;TYPE=HOME:;;;Austin;TX;;USA
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Tanaka;Chloe;;;
+FN:Chloe Tanaka
+EMAIL;TYPE=HOME:chloe.tanaka7@yahoo.com
+ADR;TYPE=HOME:;;;St. Louis;MO;;USA
+CATEGORIES:Clients
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Ibarra;Ravi;;;
+FN:Ravi Ibarra
+ORG:Northwind Labs
+TITLE:Product Manager
+EMAIL;TYPE=WORK:ravi.ibarra@northwindlabs.com
+EMAIL;TYPE=HOME:ravi.ibarra88@yahoo.com
+ADR;TYPE=HOME:;;;Berlin;DE;;USA
+CATEGORIES:Clients
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Walsh;Freya;;;
+FN:Freya Walsh
+ORG:Harbor Health
+TITLE:Software Engineer
+EMAIL;TYPE=WORK:freya.walsh@harborhealth.org
+EMAIL;TYPE=HOME:freya.walsh12@outlook.com
+ADR;TYPE=HOME:;;;St. Louis;MO;;USA
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Larsen;Kenji;;;
+FN:Kenji Larsen
+ORG:Greenline Logistics
+TITLE:Marketing Lead
+EMAIL;TYPE=WORK:kenji.larsen@greenline.co
+ADR;TYPE=HOME:;;;Lisbon;PT;;USA
+CATEGORIES:Family
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Hughes;Liam;;;
+FN:Liam Hughes
+TITLE:Product Manager
+TEL;TYPE=CELL:+1 314 555 8078
+ADR;TYPE=HOME:;;;New York;NY;;USA
+CATEGORIES:Clients
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Nguyen;Jonas;;;
+FN:Jonas Nguyen
+ORG:Northwind Labs
+TITLE:Operations Manager
+EMAIL;TYPE=WORK:jonas.nguyen@northwindlabs.com
+EMAIL;TYPE=HOME:jonas.nguyen50@outlook.com
+ADR;TYPE=HOME:;;;Toronto;CA;;USA
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Fernandez;Priya;;;
+FN:Priya Fernandez
+ORG:Pixelforge Studio
+TITLE:Data Scientist
+EMAIL;TYPE=WORK:priya.fernandez@pixelforge.studio
+EMAIL;TYPE=HOME:priya.fernandez59@icloud.com
+TEL;TYPE=CELL:+1 314 555 6524
+ADR;TYPE=HOME:;;;St. Louis;MO;;USA
+CATEGORIES:Clients
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Moreau;Henrik;;;
+FN:Henrik Moreau
+ORG:Northwind Labs
+TITLE:Founder
+EMAIL;TYPE=WORK:henrik.moreau@northwindlabs.com
+ADR;TYPE=HOME:;;;Seattle;WA;;USA
+CATEGORIES:Family
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Eriksen;Freya;;;
+FN:Freya Eriksen
+ORG:Quill & Ink Media
+TITLE:Account Executive
+EMAIL;TYPE=WORK:freya.eriksen@quillink.media
+EMAIL;TYPE=HOME:freya.eriksen77@gmail.com
+TEL;TYPE=CELL:+1 314 555 7536
+ADR;TYPE=HOME:;;;Seattle;WA;;USA
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Ibarra;Nia;;;
+FN:Nia Ibarra
+TITLE:Recruiter
+ADR;TYPE=HOME:;;;St. Louis;MO;;USA
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Fernandez;Isla;;;
+FN:Isla Fernandez
+ORG:Aster Capital
+TITLE:Account Executive
+EMAIL;TYPE=WORK:isla.fernandez@astercapital.com
+EMAIL;TYPE=HOME:isla.fernandez24@icloud.com
+TEL;TYPE=CELL:+1 314 555 5036
+ADR;TYPE=HOME:;;;London;UK;;USA
+CATEGORIES:Clients
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Brooks;Kenji;;;
+FN:Kenji Brooks
+ORG:Northwind Labs
+TITLE:Research Fellow
+EMAIL;TYPE=WORK:kenji.brooks@northwindlabs.com
+EMAIL;TYPE=HOME:kenji.brooks22@icloud.com
+ADR;TYPE=HOME:;;;Chicago;IL;;USA
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Rossi;Zoe;;;
+FN:Zoe Rossi
+ORG:Aster Capital
+TITLE:Marketing Lead
+EMAIL;TYPE=WORK:zoe.rossi@astercapital.com
+EMAIL;TYPE=HOME:zoe.rossi20@outlook.com
+TEL;TYPE=CELL:+1 314 555 9193
+ADR;TYPE=HOME:;;;Berlin;DE;;USA
+CATEGORIES:Clients
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Silva;Mateo;;;
+FN:Mateo Silva
+EMAIL;TYPE=HOME:mateo.silva81@gmail.com
+ADR;TYPE=HOME:;;;London;UK;;USA
+CATEGORIES:Clients
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Tanaka;Priya;;;
+FN:Priya Tanaka
+ORG:Lumen Analytics
+TITLE:Operations Manager
+EMAIL;TYPE=WORK:priya.tanaka@lumenanalytics.io
+EMAIL;TYPE=HOME:priya.tanaka61@outlook.com
+TEL;TYPE=CELL:+1 314 555 9372
+ADR;TYPE=HOME:;;;New York;NY;;USA
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Ibarra;Sana;;;
+FN:Sana Ibarra
+ORG:Harbor Health
+TITLE:Operations Manager
+EMAIL;TYPE=WORK:sana.ibarra@harborhealth.org
+EMAIL;TYPE=HOME:sana.ibarra1@gmail.com
+TEL;TYPE=CELL:+1 314 555 7734
+ADR;TYPE=HOME:;;;Austin;TX;;USA
+CATEGORIES:Clients
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Silva;Ava;;;
+FN:Ava Silva
+ORG:Orbital Systems
+TITLE:Account Executive
+EMAIL;TYPE=WORK:ava.silva@orbital.systems
+EMAIL;TYPE=HOME:ava.silva42@outlook.com
+TEL;TYPE=CELL:+1 314 555 8313
+ADR;TYPE=HOME:;;;St. Louis;MO;;USA
+CATEGORIES:Clients
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Ahmed;Noah;;;
+FN:Noah Ahmed
+TITLE:Designer
+EMAIL;TYPE=HOME:noah.ahmed83@yahoo.com
+TEL;TYPE=CELL:+1 314 555 3235
+ADR;TYPE=HOME:;;;Berlin;DE;;USA
+CATEGORIES:Clients
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Gupta;Liam;;;
+FN:Liam Gupta
+ORG:Greenline Logistics
+TITLE:Data Scientist
+EMAIL;TYPE=WORK:liam.gupta@greenline.co
+EMAIL;TYPE=HOME:liam.gupta78@icloud.com
+ADR;TYPE=HOME:;;;London;UK;;USA
+CATEGORIES:Clients
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Ivanova;Isla;;;
+FN:Isla Ivanova
+EMAIL;TYPE=HOME:isla.ivanova22@icloud.com
+ADR;TYPE=HOME:;;;Toronto;CA;;USA
+CATEGORIES:Family
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Ahmed;Arjun;;;
+FN:Arjun Ahmed
+ORG:Mesa University
+TITLE:Account Executive
+EMAIL;TYPE=WORK:arjun.ahmed@mesa.edu
+EMAIL;TYPE=HOME:arjun.ahmed5@icloud.com
+TEL;TYPE=CELL:+1 314 555 1361
+ADR;TYPE=HOME:;;;Austin;TX;;USA
+CATEGORIES:Family
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Tanaka;Zoe;;;
+FN:Zoe Tanaka
+ORG:Northwind Labs
+TITLE:Software Engineer
+EMAIL;TYPE=WORK:zoe.tanaka@northwindlabs.com
+EMAIL;TYPE=HOME:zoe.tanaka65@gmail.com
+ADR;TYPE=HOME:;;;Austin;TX;;USA
+CATEGORIES:Clients
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Gupta;Kenji;;;
+FN:Kenji Gupta
+TITLE:Product Manager
+EMAIL;TYPE=HOME:kenji.gupta88@gmail.com
+TEL;TYPE=CELL:+1 314 555 6380
+ADR;TYPE=HOME:;;;Denver;CO;;USA
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Ahmed;Ava;;;
+FN:Ava Ahmed
+EMAIL;TYPE=HOME:ava.ahmed15@yahoo.com
+ADR;TYPE=HOME:;;;Lisbon;PT;;USA
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Walsh;Maya;;;
+FN:Maya Walsh
+TITLE:Software Engineer
+ADR;TYPE=HOME:;;;Chicago;IL;;USA
+CATEGORIES:Clients
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Gupta;Victor;;;
+FN:Victor Gupta
+ORG:Harbor Health
+TITLE:Marketing Lead
+EMAIL;TYPE=WORK:victor.gupta@harborhealth.org
+EMAIL;TYPE=HOME:victor.gupta9@yahoo.com
+TEL;TYPE=CELL:+1 314 555 5329
+ADR;TYPE=HOME:;;;Toronto;CA;;USA
+CATEGORIES:Clients
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Eriksen;Ava;;;
+FN:Ava Eriksen
+ORG:Civic Bridge
+TITLE:Research Fellow
+EMAIL;TYPE=WORK:ava.eriksen@civicbridge.org
+EMAIL;TYPE=HOME:ava.eriksen29@gmail.com
+ADR;TYPE=HOME:;;;Seattle;WA;;USA
+CATEGORIES:Clients
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Baker;Jonas;;;
+FN:Jonas Baker
+ORG:Orbital Systems
+TITLE:Founder
+EMAIL;TYPE=WORK:jonas.baker@orbital.systems
+EMAIL;TYPE=HOME:jonas.baker88@icloud.com
+ADR;TYPE=HOME:;;;London;UK;;USA
+CATEGORIES:Clients
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Fischer;Ava;;;
+FN:Ava Fischer
+ORG:Harbor Health
+TITLE:Product Manager
+EMAIL;TYPE=WORK:ava.fischer@harborhealth.org
+ADR;TYPE=HOME:;;;St. Louis;MO;;USA
+CATEGORIES:Family
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Rossi;Ethan;;;
+FN:Ethan Rossi
+ORG:Aster Capital
+TITLE:Head of Partnerships
+EMAIL;TYPE=WORK:ethan.rossi@astercapital.com
+TEL;TYPE=CELL:+1 314 555 4402
+ADR;TYPE=HOME:;;;Seattle;WA;;USA
+CATEGORIES:Clients
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Dubois;Amara;;;
+FN:Amara Dubois
+ORG:Pixelforge Studio
+TITLE:Recruiter
+EMAIL;TYPE=WORK:amara.dubois@pixelforge.studio
+TEL;TYPE=CELL:+1 314 555 3144
+ADR;TYPE=HOME:;;;New York;NY;;USA
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Dubois;Kofi;;;
+FN:Kofi Dubois
+ORG:Northwind Labs
+TITLE:Research Fellow
+EMAIL;TYPE=WORK:kofi.dubois@northwindlabs.com
+EMAIL;TYPE=HOME:kofi.dubois27@yahoo.com
+ADR;TYPE=HOME:;;;New York;NY;;USA
+CATEGORIES:Clients
+END:VCARD
+BEGIN:VCARD
+VERSION:3.0
+N:Costa;Liam;;;
+FN:Liam Costa
+ORG:Mesa University
+TITLE:Operations Manager
+EMAIL;TYPE=WORK:liam.costa@mesa.edu
+EMAIL;TYPE=HOME:liam.costa72@outlook.com
+ADR;TYPE=HOME:;;;Chicago;IL;;USA
+CATEGORIES:Clients
+END:VCARD

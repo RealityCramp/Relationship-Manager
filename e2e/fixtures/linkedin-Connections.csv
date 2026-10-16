@@ -1,0 +1,102 @@
+Notes:
+"When exporting your connection data, you may notice that some of the email addresses are missing."
+
+First Name,Last Name,URL,Email Address,Company,Position,Connected On
+Omar,Castillo,https://www.linkedin.com/in/omar-castillo,omar.castillo@northwindlabs.com,Northwind Labs,Account Executive,20 Jan 2022
+Marcus,Kim,https://www.linkedin.com/in/marcus-kim,marcus.kim@lumenanalytics.io,Lumen Analytics,Product Manager,15 Feb 2022
+Freya,Ahmed,https://www.linkedin.com/in/freya-ahmed,,Mesa University,Software Engineer,04 Jul 2025
+Lucas,Baker,https://www.linkedin.com/in/lucas-baker,lucas.baker@northwindlabs.com,Northwind Labs,Marketing Lead,23 Jun 2019
+Diego,Fischer,https://www.linkedin.com/in/diego-fischer,,Mesa University,Analyst,02 Aug 2020
+Ava,Costa,https://www.linkedin.com/in/ava-costa,,Orbital Systems,Analyst,07 May 2023
+Elena,Jensen,https://www.linkedin.com/in/elena-jensen,elena.jensen@northwindlabs.com,Northwind Labs,Head of Partnerships,09 Mar 2018
+Jonas,Larsen,https://www.linkedin.com/in/jonas-larsen,jonas.larsen@astercapital.com,Aster Capital,Data Scientist,20 Mar 2023
+Henrik,Eriksen,https://www.linkedin.com/in/henrik-eriksen,,Harbor Health,Analyst,23 Mar 2021
+Jonas,Walsh,https://www.linkedin.com/in/jonas-walsh,jonas.walsh@orbital.systems,Orbital Systems,Research Fellow,25 Dec 2024
+Chloe,Silva,https://www.linkedin.com/in/chloe-silva,chloe.silva@greenline.co,Greenline Logistics,Founder,15 Jul 2019
+Maya,Gupta,https://www.linkedin.com/in/maya-gupta,,Greenline Logistics,Software Engineer,24 Jun 2017
+Marcus,Mensah,https://www.linkedin.com/in/marcus-mensah,,Northwind Labs,Software Engineer,24 Feb 2025
+Ines,Schmidt,https://www.linkedin.com/in/ines-schmidt,ines.schmidt@mesa.edu,Mesa University,Research Fellow,09 May 2018
+Diego,Gupta,https://www.linkedin.com/in/diego-gupta,,,,05 Aug 2022
+Sofia,Hughes,https://www.linkedin.com/in/sofia-hughes,,Quill & Ink Media,Product Manager,01 Apr 2020
+Mateo,Fischer,https://www.linkedin.com/in/mateo-fischer,,Northwind Labs,Software Engineer,11 Apr 2025
+Chloe,Costa,https://www.linkedin.com/in/chloe-costa,chloe.costa@greenline.co,Greenline Logistics,Designer,08 Nov 2017
+Marcus,Okafor,https://www.linkedin.com/in/marcus-okafor,marcus.okafor@greenline.co,Greenline Logistics,Account Executive,22 Jul 2017
+Mila,Hughes,https://www.linkedin.com/in/mila-hughes,,Lumen Analytics,Marketing Lead,16 Apr 2025
+Wren,Okafor,https://www.linkedin.com/in/wren-okafor,,Orbital Systems,Research Fellow,23 Apr 2023
+Kenji,Castillo,https://www.linkedin.com/in/kenji-castillo,kenji.castillo@civicbridge.org,Civic Bridge,Program Director,23 Nov 2025
+Felix,Fischer,https://www.linkedin.com/in/felix-fischer,felix.fischer@astercapital.com,Aster Capital,Account Executive,10 Nov 2019
+Chloe,Okafor,https://www.linkedin.com/in/chloe-okafor,chloe.okafor@civicbridge.org,Civic Bridge,Product Manager,08 Dec 2017
+Hana,Brooks,https://www.linkedin.com/in/hana-brooks,,Civic Bridge,Head of Partnerships,09 May 2018
+Wren,Gupta,https://www.linkedin.com/in/wren-gupta,,Pixelforge Studio,Analyst,18 Apr 2022
+Beatriz,Lindqvist,https://www.linkedin.com/in/beatriz-lindqvist,beatriz.lindqvist@orbital.systems,Orbital Systems,Operations Manager,22 Sept 2024
+Oscar,Nguyen,https://www.linkedin.com/in/oscar-nguyen,,Northwind Labs,Research Fellow,08 Jul 2024
+Marcus,Schmidt,https://www.linkedin.com/in/marcus-schmidt,marcus.schmidt@northwindlabs.com,Northwind Labs,Data Scientist,01 Aug 2023
+Beatriz,Schmidt,https://www.linkedin.com/in/beatriz-schmidt,,Mesa University,Founder,17 May 2023
+Tomas,Brooks,https://www.linkedin.com/in/tomas-brooks,tomas.brooks@mesa.edu,Mesa University,Designer,25 Jun 2021
+Freya,Castillo,https://www.linkedin.com/in/freya-castillo,,Northwind Labs,Operations Manager,08 Jul 2020
+Ravi,Castillo,https://www.linkedin.com/in/ravi-castillo,,Civic Bridge,Product Manager,15 Jan 2017
+Mila,Ivanova,https://www.linkedin.com/in/mila-ivanova,mila.ivanova@pixelforge.studio,Pixelforge Studio,Data Scientist,23 Sept 2019
+Victor,Okafor,https://www.linkedin.com/in/victor-okafor,,,,02 Dec 2021
+Tomas,Ivanova,https://www.linkedin.com/in/tomas-ivanova,,Pixelforge Studio,Operations Manager,20 Mar 2018
+Amara,Okafor,https://www.linkedin.com/in/amara-okafor,amara.okafor@lumenanalytics.io,Lumen Analytics,Software Engineer,22 Jul 2024
+Mateo,Schmidt,https://www.linkedin.com/in/mateo-schmidt,,,Data Scientist,06 May 2017
+Mateo,Brooks,https://www.linkedin.com/in/mateo-brooks,,Civic Bridge,Data Scientist,14 Jan 2023
+Ravi,Costa,https://www.linkedin.com/in/ravi-costa,,Lumen Analytics,Account Executive,06 Mar 2019
+Isla,Delgado,https://www.linkedin.com/in/isla-delgado,isla.delgado@lumenanalytics.io,Lumen Analytics,Designer,28 May 2020
+Leila,Patel,https://www.linkedin.com/in/leila-patel,,Harbor Health,Research Fellow,05 Aug 2018
+Tomas,Patel,https://www.linkedin.com/in/tomas-patel,tomas.patel@harborhealth.org,Harbor Health,Operations Manager,01 Oct 2024
+Victor,Tanaka,https://www.linkedin.com/in/victor-tanaka,victor.tanaka@orbital.systems,Orbital Systems,Data Scientist,27 Nov 2022
+Amara,Ahmed,https://www.linkedin.com/in/amara-ahmed,amara.ahmed@greenline.co,Greenline Logistics,Program Director,05 Oct 2019
+Theo,Moreau,https://www.linkedin.com/in/theo-moreau,,Greenline Logistics,Account Executive,07 Jun 2017
+Mateo,Ahmed,https://www.linkedin.com/in/mateo-ahmed,,,,04 Nov 2018
+Leila,Kim,https://www.linkedin.com/in/leila-kim,leila.kim@orbital.systems,Orbital Systems,Product Manager,15 Jul 2025
+Maya,Moreau,https://www.linkedin.com/in/maya-moreau,maya.moreau@orbital.systems,Orbital Systems,Recruiter,04 Oct 2023
+Zoe,Kowalski,https://www.linkedin.com/in/zoe-kowalski,,Northwind Labs,CTO,23 Apr 2022
+Noah,Dubois,https://www.linkedin.com/in/noah-dubois,noah.dubois@greenline.co,Greenline Logistics,Software Engineer,25 Apr 2019
+Ines,Moreau,https://www.linkedin.com/in/ines-moreau,,Lumen Analytics,Recruiter,07 Dec 2025
+Elena,Fernandez,https://www.linkedin.com/in/elena-fernandez,elena.fernandez@harborhealth.org,Harbor Health,Analyst,09 Mar 2023
+Ravi,Kim,https://www.linkedin.com/in/ravi-kim,,Greenline Logistics,Designer,03 Jan 2017
+Hana,Costa,https://www.linkedin.com/in/hana-costa,,Pixelforge Studio,Product Manager,24 May 2018
+Sana,Okafor,https://www.linkedin.com/in/sana-okafor,,Orbital Systems,Marketing Lead,04 Jul 2025
+Leila,Rossi,https://www.linkedin.com/in/leila-rossi,leila.rossi@northwindlabs.com,Northwind Labs,Head of Partnerships,16 Nov 2022
+Nia,Ahmed,https://www.linkedin.com/in/nia-ahmed,nia.ahmed@pixelforge.studio,Pixelforge Studio,Software Engineer,17 Jan 2022
+Ravi,Ibarra,https://www.linkedin.com/in/ravi-ibarra,ravi.ibarra@northwindlabs.com,Northwind Labs,Product Manager,11 Sept 2019
+Priya,Lindqvist,https://www.linkedin.com/in/priya-lindqvist,priya.lindqvist@pixelforge.studio,Pixelforge Studio,Head of Partnerships,28 Mar 2024
+Freya,Walsh,https://www.linkedin.com/in/freya-walsh,freya.walsh@harborhealth.org,Harbor Health,Software Engineer,01 Feb 2022
+Kenji,Larsen,https://www.linkedin.com/in/kenji-larsen,,Greenline Logistics,Marketing Lead,01 Apr 2024
+Liam,Hughes,https://www.linkedin.com/in/liam-hughes,,,Product Manager,19 Aug 2023
+Yuki,Castillo,https://www.linkedin.com/in/yuki-castillo,,Lumen Analytics,Designer,07 Jan 2018
+Jonas,Nguyen,https://www.linkedin.com/in/jonas-nguyen,jonas.nguyen@northwindlabs.com,Northwind Labs,Operations Manager,28 Dec 2024
+Priya,Fernandez,https://www.linkedin.com/in/priya-fernandez,,Pixelforge Studio,Data Scientist,15 Sept 2018
+Nia,Okafor,https://www.linkedin.com/in/nia-okafor,nia.okafor@pixelforge.studio,Pixelforge Studio,CTO,28 Oct 2021
+Liam,Haddad,https://www.linkedin.com/in/liam-haddad,,,,28 Aug 2018
+Henrik,Moreau,https://www.linkedin.com/in/henrik-moreau,henrik.moreau@northwindlabs.com,Northwind Labs,Founder,04 Oct 2018
+Freya,Eriksen,https://www.linkedin.com/in/freya-eriksen,freya.eriksen@quillink.media,Quill & Ink Media,Account Executive,18 Jan 2018
+Maya,Ivanova,https://www.linkedin.com/in/maya-ivanova,,Aster Capital,Marketing Lead,21 Jul 2019
+Sofia,Rossi,https://www.linkedin.com/in/sofia-rossi,,Harbor Health,Designer,19 Jun 2023
+Isla,Fernandez,https://www.linkedin.com/in/isla-fernandez,isla.fernandez@astercapital.com,Aster Capital,Account Executive,16 Oct 2020
+Zoe,Rossi,https://www.linkedin.com/in/zoe-rossi,,Aster Capital,Marketing Lead,03 Aug 2023
+Oscar,Dubois,https://www.linkedin.com/in/oscar-dubois,oscar.dubois@lumenanalytics.io,Lumen Analytics,Program Director,27 Sept 2019
+Priya,Tanaka,https://www.linkedin.com/in/priya-tanaka,priya.tanaka@lumenanalytics.io,Lumen Analytics,Operations Manager,28 Oct 2021
+Elena,Nguyen,https://www.linkedin.com/in/elena-nguyen,elena.nguyen@greenline.co,Greenline Logistics,Account Executive,15 Sept 2019
+Nia,Dubois,https://www.linkedin.com/in/nia-dubois,,Mesa University,Program Director,09 Sept 2024
+Ava,Silva,https://www.linkedin.com/in/ava-silva,,Orbital Systems,Account Executive,17 Sept 2022
+Maya,Hughes,https://www.linkedin.com/in/maya-hughes,maya.hughes@harborhealth.org,Harbor Health,CTO,08 May 2017
+Liam,Gupta,https://www.linkedin.com/in/liam-gupta,liam.gupta@greenline.co,Greenline Logistics,Data Scientist,27 Apr 2023
+Zoe,Tanaka,https://www.linkedin.com/in/zoe-tanaka,,Northwind Labs,Software Engineer,25 Oct 2019
+Ava,Ahmed,https://www.linkedin.com/in/ava-ahmed,,,,24 Mar 2018
+Sofia,Kim,https://www.linkedin.com/in/sofia-kim,,Northwind Labs,Data Scientist,28 Mar 2023
+Leila,Castillo,https://www.linkedin.com/in/leila-castillo,leila.castillo@mesa.edu,Mesa University,Research Fellow,24 Aug 2020
+Beatriz,Delgado,https://www.linkedin.com/in/beatriz-delgado,,,Account Executive,24 Aug 2021
+Kofi,Lindqvist,https://www.linkedin.com/in/kofi-lindqvist,,Civic Bridge,Head of Partnerships,12 Aug 2017
+Victor,Gupta,https://www.linkedin.com/in/victor-gupta,victor.gupta@harborhealth.org,Harbor Health,Marketing Lead,22 Apr 2019
+Ava,Eriksen,https://www.linkedin.com/in/ava-eriksen,,Civic Bridge,Research Fellow,14 May 2018
+Hana,Tanaka,https://www.linkedin.com/in/hana-tanaka,hana.tanaka@northwindlabs.com,Northwind Labs,Founder,09 Sept 2017
+Jonas,Baker,https://www.linkedin.com/in/jonas-baker,,Orbital Systems,Founder,17 Aug 2020
+Mila,Tanaka,https://www.linkedin.com/in/mila-tanaka,,,,10 Nov 2017
+Zoe,Delgado,https://www.linkedin.com/in/zoe-delgado,,,,08 Oct 2019
+Ava,Fischer,https://www.linkedin.com/in/ava-fischer,,Harbor Health,Product Manager,26 Jun 2019
+Ethan,Rossi,https://www.linkedin.com/in/ethan-rossi,,Aster Capital,Head of Partnerships,14 Jun 2025
+Amara,Dubois,https://www.linkedin.com/in/amara-dubois,amara.dubois@pixelforge.studio,Pixelforge Studio,Recruiter,04 Dec 2022
+Kofi,Dubois,https://www.linkedin.com/in/kofi-dubois,kofi.dubois@northwindlabs.com,Northwind Labs,Research Fellow,21 Jul 2017
+Liam,Costa,https://www.linkedin.com/in/liam-costa,,Mesa University,Operations Manager,01 Nov 2025
