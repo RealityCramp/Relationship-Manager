@@ -119,12 +119,15 @@ export function categoryColors(dark: boolean): Record<string, string> {
   const out: Record<string, string> = {};
   for (const [name, seed] of Object.entries(CATEGORY_SEEDS)) {
     const { hue, chroma } = hexToLch(seed);
-    const P = palette(hue, Math.max(56, chroma));
-    out[`cat-${name}`] = P(dark ? 80 : 40);
-    out[`cat-${name}-dim`] = P(dark ? 70 : 50);
-    out[`cat-${name}-container`] = P(dark ? 30 : 90);
-    out[`cat-${name}-on-container`] = P(dark ? 90 : 10);
-    out[`cat-${name}-fixed`] = P(dark ? 60 : 60);
+    const P = palette(hue, Math.max(64, chroma));
+    // Dark mode keeps hues saturated and distinguishable (tone ~70 rather than the pastel 80),
+    // with muted low-tone containers so text stays readable.
+    const C = palette(hue, 28);
+    out[`cat-${name}`] = P(dark ? 70 : 40);
+    out[`cat-${name}-dim`] = P(dark ? 60 : 50);
+    out[`cat-${name}-container`] = dark ? C(24) : P(90);
+    out[`cat-${name}-on-container`] = dark ? P(88) : P(12);
+    out[`cat-${name}-fixed`] = P(60);
   }
   return out;
 }

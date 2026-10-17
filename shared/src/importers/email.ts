@@ -244,7 +244,6 @@ export function buildEmailImport(messages: MailMessage[], opts: EmailImportOptio
       emails: [email],
       connectedAt: p.first || undefined,
       categories: [categoryForEmail(email, opts.corporateDomains)],
-      notes: `${p.inbound} received · ${p.outbound} sent`,
     });
   }
   const filtered = interactions

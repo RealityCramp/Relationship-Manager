@@ -216,7 +216,7 @@ export function Sheet({ open, onClose, title, children, actions }: { open: boole
   );
 }
 
-export function Menu({ trigger, items }: { trigger: (open: () => void) => ReactNode; items: { label: string; icon?: IconName; onClick: () => void; danger?: boolean }[] }) {
+export function Menu({ trigger, items, align = 'end', placement = 'bottom' }: { trigger: (open: () => void) => ReactNode; items: { label: string; icon?: IconName; onClick: () => void; danger?: boolean }[]; align?: 'start' | 'end'; placement?: 'bottom' | 'right' | 'top-right' }) {
   const [open, setOpen] = useState(false);
   const ref = useRef<HTMLDivElement | null>(null);
   useEffect(() => {
@@ -231,7 +231,7 @@ export function Menu({ trigger, items }: { trigger: (open: () => void) => ReactN
     <div ref={ref} style={{ position: 'relative', display: 'inline-block' }}>
       {trigger(() => setOpen((o) => !o))}
       {open ? (
-        <div className="menu" role="menu" style={{ right: 0, top: '100%' }}>
+        <div className="menu" role="menu" style={placement === 'right' ? { left: 'calc(100% + 8px)', top: 0 } : placement === 'top-right' ? { left: 'calc(100% + 8px)', bottom: 0 } : align === 'end' ? { right: 0, top: '100%' } : { left: 0, top: '100%' }}>
           {items.map((it) => (
             <button
               key={it.label}

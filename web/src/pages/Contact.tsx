@@ -45,9 +45,7 @@ export function ContactPage({ id }: { id: string }) {
         actions={
           <>
             <ThemeToggle />
-            <Button variant="tonal" icon="hub" onClick={() => navigate(`/network?contact=${c.id}`)}>
-              In graph
-            </Button>
+            <IconButton icon="hub" label="Show in graph" variant="tonal" onClick={() => navigate(`/network?contact=${c.id}`)} />
             {canEdit ? (
               <Menu
                 trigger={(open) => <IconButton icon="more" label="More" onClick={open} data-testid="contact-more" />}
@@ -70,7 +68,7 @@ export function ContactPage({ id }: { id: string }) {
                 <Avatar contact={c} size="lg" />
                 <div style={{ flex: 1, minWidth: 0 }}>
                   <div className="title-lg">{c.displayName}</div>
-                  <div className="body-md muted">{c.title ?? '—'}</div>
+                  {c.title ? <div className="body-md muted">{c.title}</div> : null}
                   <div className="body-md muted">{c.company ?? ''}</div>
                 </div>
               </div>

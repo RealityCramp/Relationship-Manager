@@ -111,6 +111,7 @@ function Shell() {
     <div className="app">
       <nav className="rail" aria-label="Main">
         <Menu
+          placement="right"
           trigger={(open) => (
             <IconButton icon="menu" label="Workspaces" onClick={open} data-testid="workspace-menu" />
           )}
@@ -125,6 +126,7 @@ function Shell() {
         {navItems}
         <div className="rail__spacer" />
         <Menu
+          placement="top-right"
           trigger={(open) => (
             <button type="button" className="rail__avatar" onClick={open} aria-label="Account" data-testid="account-menu">
               {initials(user?.name ?? '')}
