@@ -145,11 +145,11 @@ function serveStatic(root: string, urlPath: string, res: ServerResponse, req?: I
   if (existsSync(file) && statSync(file).isDirectory()) file = join(file, 'index.html');
   if (!existsSync(file) || !statSync(file).isFile()) return false;
   const ext = extname(file).toLowerCase();
-  const immutable = /\.[a-f0-9]{8,}\.(js|css)$/i.test(file) || /\/assets\//.test(file);
+  const immutable = /\.[A-Za-z0-9]{8,}\.(js|css)$/.test(file); // only hashed production assets
   const size = statSync(file).size;
   const headers: Record<string, string | number> = {
     'content-type': MIME[ext] ?? 'application/octet-stream',
-    'cache-control': immutable ? 'public, max-age=31536000, immutable' : ext === '.html' || file.endsWith('sw.js') ? 'no-cache' : 'public, max-age=3600',
+    'cache-control': immutable ? 'public, max-age=31536000, immutable' : ext === '.html' || ext === '.js' || ext === '.css' || ext === '.json' ? 'no-cache' : 'public, max-age=3600',
     'accept-ranges': 'bytes',
   };
   // HTTP Range requests so <video> can seek and resume.
