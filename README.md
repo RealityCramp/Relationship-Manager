@@ -78,7 +78,7 @@ scripts/          esbuild build / dev scripts
 | `npm test` | Unit tests (`node --test`) |
 | `npm run test:e2e` | Playwright suite (builds and starts its own server on port 8790) |
 | `npm run typecheck` | `tsc --noEmit` |
-| `npm run seed` | Demo account + sample data; writes `e2e/fixtures` |
+| `npm run seed` | Demo account + sample data (set `WRITE_FIXTURES=1` to also regenerate `e2e/fixtures`) |
 | `npm run training:record` | Re-record the training videos (needs ffmpeg) |
 | `npm run training:build` | Rebuild `web/public/training/index.json`; muxes `training/narration/<id>.mp3` if present |
 

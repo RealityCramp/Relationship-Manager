@@ -65,7 +65,7 @@ export function seedDatabase(dbPath: string, opts: { email?: string; password?: 
 const isMain = process.argv[1] && import.meta.url.endsWith(process.argv[1].replace(/\\/g, '/').split('/').pop()!);
 if (isMain) {
   const root = resolve(import.meta.dirname, '../..');
-  writeFixtures(resolve(root, 'e2e/fixtures'));
+  if (process.env.WRITE_FIXTURES) writeFixtures(resolve(root, 'e2e/fixtures'));
   const dbPath = process.env.DB_PATH ?? resolve(root, 'data/relationship-manager.db');
   const r = seedDatabase(dbPath);
   console.log(`Seeded ${dbPath}`);
