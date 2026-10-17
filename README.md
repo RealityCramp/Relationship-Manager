@@ -31,6 +31,8 @@ npm run seed          # optional: demo account demo@example.com / demo-password
 npm run dev           # http://localhost:8787
 ```
 
+Run the commands one per line (Windows PowerShell 5 does not accept `&&`). Check `node -v` prints 22.13 or newer. If PowerShell blocks `npm` with an execution-policy error, use `npm.cmd` or run `Set-ExecutionPolicy -Scope CurrentUser RemoteSigned` once.
+
 Production:
 
 ```bash
