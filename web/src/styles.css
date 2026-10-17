@@ -541,7 +541,7 @@ input[type='checkbox'] { accent-color: var(--md-sys-color-primary); width: 18px;
 .sheet__body { flex: 1; overflow: auto; padding: 8px 24px 24px; }
 
 .menu {
-  position: absolute; z-index: 70; min-width: 200px; max-width: 320px; padding: 8px 0;
+  position: fixed; z-index: 90; min-width: 200px; max-width: 320px; padding: 8px 0;
   background: var(--md-sys-color-surface-container); border-radius: var(--md-shape-xs); box-shadow: var(--md-elev-2);
   animation: pop var(--md-dur-short) var(--md-motion-spatial) both;
 }

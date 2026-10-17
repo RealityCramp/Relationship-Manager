@@ -218,20 +218,61 @@ export function Sheet({ open, onClose, title, children, actions }: { open: boole
 
 export function Menu({ trigger, items, align = 'end', placement = 'bottom' }: { trigger: (open: () => void) => ReactNode; items: { label: string; icon?: IconName; onClick: () => void; danger?: boolean }[]; align?: 'start' | 'end'; placement?: 'bottom' | 'right' | 'top-right' }) {
   const [open, setOpen] = useState(false);
+  const [pos, setPos] = useState<React.CSSProperties>({});
   const ref = useRef<HTMLDivElement | null>(null);
+  const menuRef = useRef<HTMLDivElement | null>(null);
+
+  // Position with `fixed` coordinates from the trigger's screen rect, so the menu is never clipped
+  // by a scrolling or overflow-hidden ancestor and always stays inside the viewport.
+  const place = () => {
+    const el = ref.current;
+    if (!el) return;
+    const r = el.getBoundingClientRect();
+    const mw = menuRef.current?.offsetWidth ?? 220;
+    const mh = menuRef.current?.offsetHeight ?? 120;
+    const vw = window.innerWidth;
+    const vh = window.innerHeight;
+    let left: number;
+    let top: number;
+    if (placement === 'right' || placement === 'top-right') {
+      left = r.right + 8;
+      top = placement === 'right' ? r.top : r.bottom - mh;
+      if (left + mw > vw - 8) left = Math.max(8, r.left - mw - 8);
+    } else {
+      left = align === 'end' ? r.right - mw : r.left;
+      top = r.bottom + 4;
+      if (top + mh > vh - 8) top = Math.max(8, r.top - mh - 4);
+    }
+    left = Math.min(Math.max(8, left), vw - mw - 8);
+    top = Math.min(Math.max(8, top), vh - mh - 8);
+    setPos({ position: 'fixed', left, top });
+  };
+
   useEffect(() => {
     if (!open) return;
+    place();
     const onDoc = (e: MouseEvent) => {
-      if (ref.current && !ref.current.contains(e.target as Node)) setOpen(false);
+      if (ref.current && !ref.current.contains(e.target as Node) && menuRef.current && !menuRef.current.contains(e.target as Node)) setOpen(false);
     };
+    const onKey = (e: KeyboardEvent) => e.key === 'Escape' && setOpen(false);
     document.addEventListener('mousedown', onDoc);
-    return () => document.removeEventListener('mousedown', onDoc);
+    window.addEventListener('keydown', onKey);
+    window.addEventListener('resize', place);
+    window.addEventListener('scroll', place, true);
+    return () => {
+      document.removeEventListener('mousedown', onDoc);
+      window.removeEventListener('keydown', onKey);
+      window.removeEventListener('resize', place);
+      window.removeEventListener('scroll', place, true);
+    };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [open]);
+
   return (
     <div ref={ref} style={{ position: 'relative', display: 'inline-block' }}>
       {trigger(() => setOpen((o) => !o))}
       {open ? (
-        <div className="menu" role="menu" style={placement === 'right' ? { left: 'calc(100% + 8px)', top: 0 } : placement === 'top-right' ? { left: 'calc(100% + 8px)', bottom: 0 } : align === 'end' ? { right: 0, top: '100%' } : { left: 0, top: '100%' }}>
+        <div ref={menuRef} className="menu" role="menu" style={pos} data-testid="menu">
           {items.map((it) => (
             <button
               key={it.label}
